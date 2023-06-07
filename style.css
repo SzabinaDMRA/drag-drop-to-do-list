@@ -1,0 +1,74 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to right, #076585, #ddecf1);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-1 {
+    font-size: 60px;
+    margin-top: -19%;
+    margin-left: 4%;
+    position: absolute;
+    text-shadow: 4px 0 #333;
+}
+
+.text-2 {
+    font-size: 60px;
+    margin-top: -19%;
+    margin-left: 37%;
+    position: absolute;
+    text-shadow: 4px 0 #333;
+}
+
+#left, #right {
+    width: 550px;
+    min-height: 600px;
+    margin: 20px;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+#left + #right {
+    margin: 100px;
+}
+
+.list {
+    width: 80%;
+    height: 55px;
+    margin: 36px;
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    background: #ffffff7e;
+    cursor: grab;
+    border: 1px solid #333;
+    border-radius: 50px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.list span {
+    font-size: 19px;
+    color: #333;
+    font-weight: 300;
+    margin-left: 50px;
+    text-shadow: 1px 0 #333;
+}
+
+.list i {
+    font-size: 20px;
+    margin-left: 20px;
+    background: transparent;
+    border-radius: 50px;
+    text-shadow: 1px 0 #333;
+}
